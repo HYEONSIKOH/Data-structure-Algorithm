@@ -20,7 +20,14 @@ public class Dfs {
         v.get(y).add(x);
     }
 
+    public void sortArray() {
+        for (List<Integer> integers : v) {
+            integers.sort(null);
+        }
+    }
+
     public void search(int x) {
+
         visited.set(x, true);
         System.out.print(x + " ");
 

@@ -14,6 +14,7 @@ public class Main {
         int V = Integer.parseInt(cmd.nextToken());
 
         Dfs dfs = new Dfs(M);
+        Bfs bfs = new Bfs(M);
 
         for (int i = 0; i < N; i++) {
             StringTokenizer nodes = new StringTokenizer(br.readLine());
@@ -21,8 +22,12 @@ public class Main {
             int y = Integer.parseInt(nodes.nextToken());
 
             dfs.addEdge(x, y);
+            bfs.addEdge(x, y);
         }
 
+        dfs.sortArray();
         dfs.search(V);
+        System.out.println();
+        bfs.search(V);
     }
 }
