@@ -1,4 +1,4 @@
-package Stack;
+package Java.Stack;
 
 public class Stack {
     private int[] data;
@@ -21,7 +21,7 @@ public class Stack {
 
     public void push(int value) {
         if (isFull()) {
-            System.out.println("Stack is full");
+            System.out.println("Java.Stack is full");
         } else {
             data[++top] = value;
         }

@@ -1,6 +1,4 @@
-package Tree;
-
-import java.util.ArrayList;
+package Java.Tree;
 
 public class Tree {
     int[] alphabet;

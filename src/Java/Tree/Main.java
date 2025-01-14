@@ -1,4 +1,4 @@
-package Tree;
+package Java.Tree;
 
 import java.io.BufferedReader;
 import java.io.IOException;

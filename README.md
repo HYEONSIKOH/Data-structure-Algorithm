@@ -11,13 +11,13 @@ C언어로 구현했던 자료구조 & 알고리즘을 복습하면서 Java로 �
 ## 🔍 Features
 
 - **Data Structures** (자료구조):
-  - Stack (24/12/01)
-  - Queue (including Circular Queue) (24/12/08)
+  - Java.Stack (24/12/01)
+  - Java.Queue (including Circular Java.Queue) (24/12/08)
   - Linked List
-  - Tree
+  - Java.Tree
 
 - **Algorithms** (알고리즘):
   - Sorting (QuickSort, MergeSort, etc.)
   - Searching (Binary Search, Linear Search)
-  - Graph Algorithms (DFS, BFS)
+  - Graph Algorithms (Java.Graph, BFS)
   - Dynamic Programming

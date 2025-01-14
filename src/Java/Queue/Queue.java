@@ -1,4 +1,4 @@
-package Queue;
+package Java.Queue;
 
 public class Queue {
     private int[] arr;
@@ -25,7 +25,7 @@ public class Queue {
     // Queue에서 맨 앞에 값 확인
     public int peek() { return isEmpty() ? -1 : arr[front]; }
 
-    // Queue 맨 뒤 값 확인
+    // Java.Queue 맨 뒤 값 확인
     public int back() { return isEmpty() ? -1 : arr[(rear - 1 + size) % size]; }
 
     // Queue에서 맨 앞에 값 빼기
@@ -38,7 +38,7 @@ public class Queue {
         return res;
     }
 
-    // Queue 안에 정수 개수 확인
+    // Java.Queue 안에 정수 개수 확인
     public int size() {
         if (rear >= front) return rear - front;
         else return size - front + rear;

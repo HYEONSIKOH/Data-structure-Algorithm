@@ -1,4 +1,4 @@
-package DFS;
+package Java.Graph;
 
 import java.io.BufferedReader;
 import java.io.IOException;
