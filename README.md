@@ -19,5 +19,6 @@ C언어로 구현했던 자료구조 & 알고리즘을 복습하면서 Java & Ko
 - **Algorithms** (알고리즘):
   - Sorting (QuickSort, MergeSort, etc.)
   - Searching (Binary Search, Linear Search)
-  - Graph Algorithms (Java.Graph, BFS) 
+  - Graph Algorithms (Java.Graph, BFS) (24/12/29)
+  - Graph Algorithms (Dijsktra, Bellman-Ford) (25/01/19)
   - Dynamic Programming
